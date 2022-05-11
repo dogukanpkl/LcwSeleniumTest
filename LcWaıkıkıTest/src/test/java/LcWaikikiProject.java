@@ -29,7 +29,7 @@ public class LcWaikikiProject {
         girisYap.click();
 
 
-        driver.findElement(By.id("LoginEmail")).sendKeys("turtlee.0611@gmail.com");
+        driver.findElement(By.id("LoginEmail")).sendKeys("asdasd@gmail.com");
         driver.findElement(By.id("Password")).sendKeys("asdasd123");
         driver.findElement(By.id("loginLink")).click();
         WebElement hesabim=driver.findElement(By.xpath("//*[contains(text(), 'Hesabım')]"));
